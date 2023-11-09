@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="images/logo.png" rel="icon"/>
+    <link rel="stylesheet" type="text/css" href="style.css?v=202305261647" width="30" height="30"/>
+
+    <title>Escapades Temporelles - Voyagez à travers le temps dans notre jeu gratuit</title>
+    <meta name="description" content="Embarquez pour un voyage à travers le temps avec Escapades Temporelles, un jeu gratuit conçu par des étudiants passionnés. Téléchargez et commencez votre aventure maintenant.">
+    <meta name="keywords" content="jeu, gratuit, voyage temporel, escapades temporelles, téléchargement, etudiant, projet, NSI, paradoxes technologies">
+    <meta name="robots" content="index, follow">
+
+  </head>
+
+  <body>
+    <ul class="header-list">
+      <li>
+        <input type="checkbox" class="checkbox" id="checkbox" />
+        <label for="checkbox" class="checkbox-label">
+          <span class="ball"></span>
+        </label>
+      </li>
+      <li><a href="download.html" class="download-button">Télécharger</a></li>
+    </ul>
+    
+    <ul class='mur'>
+        <li><img src="images/titreP.png" class="titremur" id="titremur" alt="Logo du présent de l'entreprise Paradoxes Techologies présente dans le jeu vidéo gratuit d'enigme Escapades Temporelles"/></li>
+        <div class="info-text">
+          <h2>Bienvenue chez Paradoxes Technologies</h2>
+          <p>En nous rejoignant, vous entrez dans une équipe de chercheurs passionnés
+          par la science-fiction, dédiée à repousser les frontières de la compréhension humaine. 
+          Paradoxes Technologies est un laboratoire de pointe, pionnier dans l'étude et 
+          l'expérimentation de phénomènes temporels. Notre ambition est de faire progresser la 
+          science en dévoilant les mystères du temps à travers notre jeu d'énigme gratuit, 
+          Escapades Temporelles. Nous sommes animés par l'innovation, le courage et l'ingéniosité, 
+          et nous sommes convaincus que vous apporterez ces qualités à notre équipe.</p>
+          <h2>L'expérience Escapades Temporelles : Un voyage à travers le temps</h2>
+          <p>Dans le cadre de notre jeu gratuit Escapades Temporelles, vous vous 
+          plongerez dans ces mystères du temps comme jamais auparavant. En tant que volontaire 
+          participant à nos protocoles d'expérimentation, vous serez aux commandes d'une technologie 
+          révolutionnaire, capable d'alterner entre le présent et le futur. C'est une expérience de 
+          voyage dans le temps unique et exaltante qui vous attend.</p>
+          <h2>Un défi inattendu dans un jeu d'énigme</h2>
+          <p>Cependant, sachez que dans le monde de la science, les choses ne se passent 
+          pas toujours comme prévu. Suite à un incident inattendu, votre mission dans notre jeu de 
+          puzzle se transforme en une course effrénée pour échapper à notre complexe de recherche. 
+          La question est donc la suivante : êtes-vous prêt à relever ce défi et à naviguer à travers 
+          les complexités du temps ? Nous avons hâte de vous voir à l'oeuvre. Préparez-vous à commencer 
+          votre escapade temporelle dans notre jeu !</p>
+        </p></div>
+        <li><img src="images/texteP.png" class="textemur" id="textemur" alt="Captures d'écrants de différentes salles dans le présent du jeu vidéo gratuit d'enigme Escapades Temporelles"/></li>
+        <li>
+          <video controls class="trailer" poster="images/videoimg.png">
+          <source
+            src="video/trailer.mp4"
+            type="video/mp4"
+          />
+          Votre navigateur ne prend pas en charge la vidéo HTML.
+          </video>
+        </li>
+    </ul>
+
+  </body>
+</html>
+
+<script>
+  const checkbox = document.getElementById("checkbox");
+  const image = document.getElementById("titremur");
+  const image2 = document.getElementById("textemur");
+
+  checkbox.addEventListener("change", () => {
+    if(checkbox.checked) {
+      image.src = "images/titreF.png";
+      image.alt = "Logo du future de l'entreprise Paradoxes Techologies présente dans le jeu vidéo gratuit d'enigme Escapades Temporelles";
+      image2.src = "images/texteF.png";
+      image2.alt = "Captures d'écrants de différentes salles dans le future du jeu vidéo gratuit d'enigme Escapades Temporelles";
+    } else {
+      image.src = "images/titreP.png";
+      image.alt = "Logo du présent de l'entreprise Paradoxes Techologies présente dans le jeu vidéo gratuit d'enigme Escapades Temporelles";
+      image2.src = "images/texteP.png";
+      image2.alt = "Captures d'écrants de différentes salles dans le présent du jeu vidéo gratuit d'enigme Escapades Temporelles";
+    }
+    document.body.classList.toggle("dark");
+  });
+</script>

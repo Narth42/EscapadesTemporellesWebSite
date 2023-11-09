@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+    xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+    xmlns:video="http://www.google.com/schemas/sitemap-video/1.1"
+    xmlns:xhtml="http://www.w3.org/1999/xhtml">
+    
+   <url>
+      <loc>https://www.escapadestemporelles.fr/index.html</loc>
+      <lastmod>2023-05-28</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>1.0</priority>
+      <image:image>
+         <image:loc>https://www.escapadestemporelles.fr/images/titreP.png</image:loc>
+         <image:caption>Logo d'Escapades Temporelles</image:caption>
+      </image:image>
+      <image:image>
+         <image:loc>https://www.escapadestemporelles.fr/images/logo.png</image:loc>
+         <image:caption>Logo de l'entreprise Paradoxes Technologies</image:caption>
+      </image:image>
+      <video:video>
+         <video:content_loc>https://www.escapadestemporelles.fr/video/trailer.mp4</video:content_loc>
+         <video:thumbnail_loc>https://www.escapadestemporelles.fr/images/videoimg.png</video:thumbnail_loc>
+         <video:title>Découvrez le trailer d'Escapades Temporelles !</video:title>
+         <video:description>Trailer du jeu d'énigme gratuit Escapdes Temporelles</video:description>
+      </video:video>
+   </url>
+   <url>
+      <loc>https://www.escapadestemporelles.fr/download.html</loc>
+      <lastmod>2023-05-28</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.8</priority>
+      <image:image>
+         <image:loc>https://www.escapadestemporelles.fr/images/couvertureP.png</image:loc>
+         <image:caption>Images de couverture du jeu gratuit Escapades Temporelles dans le présent</image:caption>
+      </image:image>
+      <image:image>
+         <image:loc>https://www.escapadestemporelles.fr/images/couvertureF.png</image:loc>
+         <image:caption>Images de couverture du jeu gratuit Escapades Temporelles dans le future</image:caption>
+      </image:image>
+   </url>
+   <url>
+      <loc>https://www.escapadestemporelles.fr/changelog.html</loc>
+      <lastmod>2023-05-28</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.8</priority>
+   </url>
+</urlset>
